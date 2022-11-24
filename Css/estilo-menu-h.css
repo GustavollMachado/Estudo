@@ -1,0 +1,45 @@
+*{
+    
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#menu-h{
+    background-color: black;
+}
+
+#menu-h ul{
+    max-width: 800px;
+    list-style-type: none;
+    padding: 0;
+    background-color:black;
+}
+
+#menu-h ul li{
+    display: inline;
+}
+
+#menu-h ul li a{
+    color: aliceblue;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background 0.5s;
+}
+
+#menu-h ul li a:hover{
+    background-color: green;
+}
+
+#menu-h ul li:last-child a{
+    float: right;
+    background-color: green;
+}
+
+body{
+    background-image: url(../imagens/perfeito.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 21%;
+}

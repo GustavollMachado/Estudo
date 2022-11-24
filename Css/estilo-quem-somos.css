@@ -1,0 +1,72 @@
+*{
+    border-radius: 10px;
+    margin: 5px;
+    padding: 0;
+}
+
+body{
+    background-image: url(../Html/imagens/banerHorti.jpg);
+    background-repeat: round;
+}
+
+#menu-h{
+    background-color: black;
+}
+
+#menu-h ul{
+    max-width: 800px;
+    list-style-type: none;
+    padding: 0;
+    background-color:black;
+}
+
+#menu-h ul li{
+    display: inline;
+}
+
+#menu-h ul li a{
+    color: aliceblue;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background 0.5s;
+}
+
+#menu-h ul li a:hover{
+    background-color: green;
+}
+
+#menu-h ul li:last-child a{
+    float: right;
+    background-color: green;
+}
+
+p{
+    width: 210px;
+    display: inline-block;
+    padding: 60px;
+    margin: 50px;
+    border-radius: 20px;
+    border-style: groove;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.primeiro-ano{
+    background-color: green;
+    color: white;
+}
+
+.segundo-ano{
+    background-color: green;
+    color: white;
+}
+
+.terceiro-ano{
+    background-color: green;
+    color: white;
+}
+
+.footer{
+    text-align: center;
+}

@@ -1,0 +1,67 @@
+*{
+    border-radius: 10px;
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#menu-h{
+    background-color: black;
+}
+
+#menu-h ul{
+    max-width: 800px;
+    list-style-type: none;
+    padding: 0;
+    background-color:black;
+}
+
+#menu-h ul li{
+    display: inline;
+}
+
+#menu-h ul li a{
+    color: aliceblue;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background 0.5s;
+}
+
+#menu-h ul li a:hover{
+    background-color: green;
+}
+
+#menu-h ul li:last-child a{
+    float: right;
+    background-color: green;
+}
+
+body{
+    background-image: url(../Html/imagens/verduras/fundo-verdura.jpg);
+    border-radius: 10px;
+}
+
+.produto{
+    display: inline-block;
+    margin: 15px 30px;
+    box-sizing: content-box;
+    cursor: pointer;
+}
+
+.produto p{
+    text-align: center;
+    border-style: groove;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    background-color: aquamarine;
+}
+
+.produto p:hover{
+    transform: rotate(5deg);
+}
+
+.footer{
+    text-align: center;
+}
